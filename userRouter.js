@@ -3,10 +3,10 @@ const express = require("express");
 const router = express.Router();
 const userControll = require("../controllers/userControll");
 
-//Routes
+//Routes to register && login
 router.post("/register", userControll.register);
 router.post("/login", userControll.login);
 
-//Export
+//Export code
 module.exports = router;    
     
