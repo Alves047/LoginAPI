@@ -17,13 +17,12 @@ const userController = {
               if (selectedUser) {
                   return res.status(400).send("Email already exist");
               }
-    //-----Creating new User-------
+    //-----Creating new User---
     const user = new User({
       name: req.body.name,
       email: req.body.email,
       password: bcrypt.hashSync(req.body.password), 
-    });
-    
+    });s
     try {
       await user.save();
       res.send("User registered with successfly");
