@@ -22,7 +22,7 @@ const userController = {
       name: req.body.name,
       email: req.body.email,
       password: bcrypt.hashSync(req.body.password), 
-    });s
+    });
     try {
       await user.save();
       res.send("User registered with successfly");
