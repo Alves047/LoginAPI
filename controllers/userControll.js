@@ -7,8 +7,9 @@
 
 // CODE to User Controlls with Register and Login && Access TOKEN
 const userController = {
+//Code to Register
   register: async (req, res) => {
-  //---Validate-----
+  //Validate
         const { error } = registerValid(req.body);
         if (error) {
             return res.status(400).send(error.message);
@@ -19,7 +20,7 @@ const userController = {
     if (selectedUser) {
       return res.status(400).send("Email already exist");
     }
-  //-----Creating new User---
+  //--------Creating new User------------
     const user = new User({
       name: req.body.name,
       email: req.body.email,

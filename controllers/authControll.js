@@ -1,5 +1,6 @@
 //Variables Imports
-const jwt = require("jsonwebtoken");
+  
+  const jwt = require("jsonwebtoken");
 
 // Auth-Token Verify
 module.exports = function (req, res, next) {
@@ -15,4 +16,5 @@ module.exports = function (req, res, next) {
   } catch (err) {
     res.status(401).send("Access Denied: Invalid token");
   }
+
 };
