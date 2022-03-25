@@ -1,7 +1,7 @@
 //Variables imports
-const express = require("express");
-const router = express.Router();
-const userControll = require("../controllers/userControll");
+    const express = require("express");
+    const router = express.Router();
+    const userControll = require("../controllers/userControll");
 
 //Routes to register && login
 router.post("/register", userControll.register);

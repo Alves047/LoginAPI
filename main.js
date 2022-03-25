@@ -1,16 +1,13 @@
 //Variables Imports
-require("dotenv").config();
-const express = require("express");
-const app = express();
-const userRouter = require("./routes/userRouter");
-const mongoose = require("mongoose");
-const adminRouter = require("./routes/admRouter");
+  require("dotenv").config();
+  const express = require("express");
+  const app = express();
+  const userRouter = require("./routes/userRouter");
+  const mongoose = require("mongoose");
+  const adminRouter = require("./routes/admRouter");
 
 //Connect with DB
-mongoose.connect(
-  process.env.MONGO_CONNECTION_URL,
-  { useNewURLParser: true, useUnifiedTopology: true },
-  (err) => {
+mongoose.connect( process.env.MONGO_CONNECTION_URL, { useNewURLParser: true, useUnifiedTopology: true }, (err) => {
     if (err) {
       console.log(err);
     } else {

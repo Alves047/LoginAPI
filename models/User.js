@@ -1,5 +1,5 @@
 //Variables Imports
-const mongoose = require("mongoose");
+  const mongoose = require("mongoose");
 
 //Schema Structure
 const userSchema = mongoose.Schema({

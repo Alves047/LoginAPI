@@ -1,11 +1,10 @@
 //Variables Imports
-  
+ 
   const jwt = require("jsonwebtoken");
-
+  
 // Auth-Token Verify
 module.exports = function (req, res, next) {
   const token = req.header("authorization-token");
-
   if (!token) {
     return res.status(401).send("Access Denied");
   }
