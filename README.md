@@ -25,7 +25,6 @@ ESQUEMA (SCHEMA) DEFAULT PARA REGISTRO DO USUARIO
    Para a criaçao de um novo usuario, a aplicaçao segue com base na estrutura de um modelo, sendo possivel observar em 'models/user.js', descrito com base na documentaçao do Mongoose: -> https://mongoosejs.com/docs/models.html. O link anterior citado, apresenta detalhes para a criaçao e estruturaçao de um documento, junto com as propriedades dos objetos, como demonstra a imagem abaixo:
    ![image](https://user-images.githubusercontent.com/85362752/168090003-30e9418d-5201-49c1-b29f-5bd84cb06b36.png)
           |
-          |
           |_ Alguns campos da estrutura apresenta propriedades obrigatórias, escritas com "required = true", pois sao necessarias para o registro do usuario, alem de comprimentos dos dados minimos e maximos: 
             ![image](https://user-images.githubusercontent.com/85362752/168091191-60106f16-d626-45b6-a30f-67b0d703589a.png)
            |
