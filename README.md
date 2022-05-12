@@ -2,7 +2,8 @@
 Este projeto tem como objetivo simular o funcionamento de registro / login de um usuario, inserindo as informaçoes nos respectivos campos para sua autenticação e alterando o status da mesma. 
 
 ------------------------------------------------------------------------IMPORTANTE----------------------------------------------------------- 
-A base de dados escolhida para o armazenamento dos dados fornecidos pelo User foi o MongoDB (banco nao-relacional), através da criaçao pessoal de um Cluster, disponivel em https://www.mongodb.com/atlas/database .
+
+   A base de dados escolhida para o armazenamento dos dados fornecidos pelo User foi o MongoDB (banco nao-relacional), através da criaçao pessoal de um Cluster, disponivel em https://www.mongodb.com/atlas/database .
 Para a verificação do funcionamento de todo o projeto, é necessário a criação de um cluster no MongoDB, inserindo a URL para conexao com a aplicação.
 
 
