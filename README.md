@@ -1,8 +1,7 @@
 # Login_com_Mongoose
 Este projeto tem como objetivo simular o funcionamento de registro / login de um usuario, inserindo as informaçoes nos respectivos campos para sua autenticação e alterando o status da mesma. 
 
---------------------------IMPORTANTE------------------------------
-  
+--------------------------IMPORTANTE------------------------------  
 A base de dados escolhida para o armazenamento dos dados fornecidos pelo User foi o MongoDB (banco nao-relacional), através da criaçao pessoal de um Cluster, disponivel em https://www.mongodb.com/atlas/database .
 Para a verificação do funcionamento de todo o projeto, é necessário a criação de um cluster no MongoDB, inserindo a URL para conexao com a aplicação.
 Para testes da aplicaçao e API, foi utilizado o Thunder Client, aonde simula toda a requisição que seria feita pelo Front-end. Essa ferramenta auxilia nos testes sem a necessidade de criar uma pagina no Front para apenas realizar os testes, fornecendo mais eficiencia na criaçao. É possivel realizar tais testes em outras APIs REST ( fica a critério do tester).
