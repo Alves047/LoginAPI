@@ -26,7 +26,9 @@ ESQUEMA (SCHEMA) DEFAULT PARA REGISTRO DO USUARIO
    ![image](https://user-images.githubusercontent.com/85362752/168090003-30e9418d-5201-49c1-b29f-5bd84cb06b36.png)
           |
           |_ Alguns campos da estrutura apresenta propriedades obrigatórias, escritas com "required = true", pois sao necessarias para o registro do usuario, alem de comprimentos dos dados minimos e maximos: 
+            
             ![image](https://user-images.githubusercontent.com/85362752/168091191-60106f16-d626-45b6-a30f-67b0d703589a.png)
+           
            |
            |_COMPLEMENTO ----> VALIDAÇÃO: PROPRIEDADES DO OBJETO:
                Algumas propriedades do objeto não respeitam totalmente as regras da aplicação, sendo assim necessária a implementaçao de uma validaçao. Para isso, foi utilizado o modulo 'Joi' para que, de fato, respeite o tamanho minimo e maximo de dados para registro e login, como é possivel observar na imagem adiante: ![image](https://user-images.githubusercontent.com/85362752/168093727-57881207-b6f0-492a-a29d-f784597a79b9.png)
