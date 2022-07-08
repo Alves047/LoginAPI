@@ -1,4 +1,4 @@
-# API_TEST_MONGOOSE
+# Login_API_REST
 Este projeto tem como objetivo simular o funcionamento de registro / login de um usuario, inserindo as informaçoes nos respectivos campos para sua autenticação e alterando o status da mesma. 
 
 --------------------------IMPORTANTE------------------------------  
