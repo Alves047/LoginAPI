@@ -26,7 +26,7 @@ const userController = {
     });
     try {
       await user.save();  
-      res.send("User registered with successfly");
+      res.send("User registred with successfly");
     } catch (err) {
       res.status(400).send(err.message);
     }
